@@ -15,5 +15,5 @@ Feature: Google search functionality Title Validation
 
   Scenario: Search functionality result title verification
     Given user is on Google search page
-    When user types "Nadir" in the google search box and click enter
-    Then User should see "Nadir - Google Search" is in the google title
+    When user types "Star" in the google search box and click enter
+    Then User should see "Star - Google Search" is in the google title
